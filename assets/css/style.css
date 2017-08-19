@@ -159,14 +159,44 @@ img:hover {
 }
 @media screen and (max-width: 640px) {
 	
+
 	.main-body {
 		width: 90%;
 		max-width: 90%;
 		height: 100%
+		
+	}
+
+	.profilepic {
+		margin-top: 10%;
 	}
 
 	.asidebox {
 		display: inline-block;
+		float: left;
+	}
+
+	.LI-badge-container-horizontal-dark, .LI-badge-container {
+		
+		width: 50%;
+		margin-bottom: 30%;
+		float: left;
+		clear: all;
+	} 
+
+	li {
+		display: inline;
+		/*display: none !important;*/
 		float: right;
 	}
+
+	a {
+		display: inline-block;
+	}
+
+	.bottom_ul {
+		display: inline-block;
+	}
+
+   
 }
